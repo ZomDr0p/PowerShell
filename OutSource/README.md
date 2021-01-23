@@ -18,3 +18,9 @@ https://github.com/Kevin-Robertson/Tater
 - **Empire** is the post-exploitation framework
 
 https://github.com/EmpireProject/Empire
+
+<br />
+
+**PowerSploit** is a collection of Microsoft PowerShell modules that can be used to aid penetration testers during all phases of an assessment
+
+https://github.com/PowerShellMafia/PowerSploit
