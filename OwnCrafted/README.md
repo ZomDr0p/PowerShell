@@ -1,6 +1,5 @@
 # PowerShell
-Collection of Powershell scripts made by me or I have find interesting. 
+Collection of Powershell scripts made by me.
 
-Scripts made by me
-  - OwnCrafted: Made by me
-  - OutSource: Scripts from an external source such as other Githubs
+  - **Check-Vm.ps1** It can detects if a localhost is a Virtual Machine of VMware, Vbox or Xen.
+  - **WebHeaders.ps1** It extracts the Headers of the URL chosen
