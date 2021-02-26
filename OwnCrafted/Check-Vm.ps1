@@ -84,17 +84,17 @@ function Check-Vm{
 
 
 #Check the detection variables and returns if the host is a virtualmachine and what technology 
-if($vmw = $true)
+if($vmw -eq $true)
 {
     Write-Host "Is a VMWare machine"
 }
 
-elseif( $vbox = $true)
+elseif( $vbox -eq $true)
 {
     Write-Host "Is a VirtualBox machine"
 }
 
-elseif( $xenvm = $true)
+elseif( $xenvm -eq $true)
 {
     Write-Host "Is a Xen machine"
 }
