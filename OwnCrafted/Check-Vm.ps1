@@ -27,10 +27,6 @@ function Check-Vm{
         $vmw = $true
     }
 
-#VMWare 1º & 2º service detection
-    $vmwservice = Get-Service | % { if (($_.Name.ToLower().Equals("vmicvss")) -or ($_.Name.ToLower().Equals("vmtoolsd"))) {$vmw = $true}}
-
-
 
 #VirtualBox detection
     $vbox = $false
